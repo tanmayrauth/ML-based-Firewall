@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import urllib.parse
 import os
 
+
 def loadFile(name):
     directory = str(os.getcwd())
     filepath = os.path.join(directory, name)
